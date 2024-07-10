@@ -4,8 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+       <header class="header">
+        <div class="box">
+            <div class="box__content">
+                <p class="desc">Facebook</p>
+                <p class="title">Connect with friends and the world around you on Fecebook</p>
+            </div>
+            <div class="header__fecbook">
+                <form class="form" action="">
+                    <input  class="input" required placeholder="Email or phone number " type="text">
+                    <input class="input" required placeholder="password" type="password">
+                    <button  class="btn">Log in</button>
+                    <a class="activ" href="#">Forgot password?</a>
+                    <hr class="hr">
+                    <button onclick="toggleShow ()" class="button">Creat new account</button>
+                </form>
+            </div>
+        </div>
+        <main class="main ">
+         <div class="main__box ">
+             <div class="main__content">
+                <div class="main__inher">
+                    <p class="main__p">Sign Up</p>
+                    <p class="main__text">It's quick and easy</p>
+                </div>
+                 <div class="main__x">
+                     <i  onclick=" toggleShow ()"  class="fa-solid fa-xmark"></i>
+
+                 </div>
+                </div>
+             <hr>
+             <form class="form" action="">
+                 <div class="main__name">
+                     <input class="input" required placeholder="Frist Name" type="text">
+                     <input class="input" placeholder="Last Name" type="text">
+                 </div>
+                 <input class="main__btr" required placeholder="Mobeli Number or email" type="text">
+                 <input class="main__btr" required placeholder="New password" type="password">
+                 <div class="main__theme">
+                     <label class="for" for=" ">Bithday?</label>
+                     <div class="main__travel">
+                         <select class="travel" name="travel" id="travel">
+                             <option value="travel">Iyun</option>
+                             <option value="travel">iyul</option>
+                             <option value="travel">avgust</option>
+                         </select>
+                         <select class="travel" name="travel" id="travel">
+                             <option value="travel">9</option>
+                             <option value="travel">8</option>
+                             <option value="travel">10</option>
+                         </select>
+                         <select class="travel" name="travel" id="travel">
+                             <option value="travel">2024</option>
+                             <option value="travel">2023</option>
+                             <option value="travel">2025</option>
+                         </select>
+                     </div>
+                 </div>
+                 <div class="main__theme">
+                     <label class="for" for="">Gender ?</label>
+                     <div class="main__ismerid">
+                         <div class="main__male">
+                             <label for="">Female</label>
+                             <input type="radio" name="" id="">
+                         </div>
+                         <div class="main__male">
+                             <label for="">Male</label>
+                             <input type="radio" name="" id="">
+                         </div>
+                         <div class="main__male">
+                             <label for="">Custom </label>
+                             <input type="radio" name="gender" id="Female">
+                         </div>
+                     </div>
+                 </div>
+               <p class="main__b">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi <a style=" text-decoration: inherit;" href="#">Lorem ipsum dolor sit.</a></p>
+               <p class="main__b">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolorum porro cupiditate necessitatibus distinctio. <a style="text-decoration: inherit;" href="#">Lorem ipsum dolor sit.</a></p>
+               <button class="main__up">Sin Up</button>
+             </form>
+             </div>
+        </main>
+       </header>
+    
     <script src="./js/main.js"></script>
 </body>
 </html>

@@ -1,3 +1,18 @@
+const main = document.querySelector(".main__box");
+const form = document.querySelector(".form");
+const main__up = document.querySelector(".main__up");
+const main__name = document.querySelector(".input");
+// console.log(input);
+
+main__name.addEventListener("click", () => {
+  alert("bo'limni toldiring");
+});
+main__up.addEventListener("click", () => {
+  alert("thank you");
+});
+function toggleShow() {
+  main.classList.toggle("show");
+}
 // {
 //     function solution(a, b) {
 //   if(a.length>b.length){
@@ -136,9 +151,6 @@ function friend(names) {
   }
   return friendNames;
 }
-
-
-
 
 function dost(names) {
   let dostIsmi = [];
